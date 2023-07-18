@@ -1,0 +1,147 @@
+.maindiv{
+    margin-left:auto;
+    margin-right:auto;
+}
+.navdiv{
+    background-color:rgb(0, 119, 255);
+    color:black;
+    height:80px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.navtextdiv{
+    margin-left:800px;
+    font-size:20px;
+    position:absolute;
+    top:15px;
+    display:flex;
+}
+.navtext{
+    color:black;
+    padding-left:15px;
+}
+.navimage{
+    height:80px;
+    width:80px;
+    margin-left:70px;
+}
+a{
+    text-decoration:none;
+}
+.headdiv{
+    font-size:60px;
+    font-weight:bold;
+    padding:30px;
+    text-align:center;
+}
+.pradiv{
+    text-indent:100px;
+    font-size:25px;
+    font-display:inherit;
+    text-align:center;
+    text-align-last:left;
+}
+.imagediv{
+    background-color:lightblue;
+    display:flex;
+}
+.img{
+    margin-top:25px;
+    margin-bottom:25px;
+    border-radius:10px;
+    height:200px;
+    width:200px;
+    margin-left:100px;
+}
+.img:hover{
+    transform:scale(1.1);
+}
+.formdiv{
+    background-color:antiquewhite;
+    display:flex;
+    justify-content:center;
+}
+.form{
+    margin:50px;
+}
+.label{
+    font-size:25px;
+    font-weight:bold;
+}
+.inp{
+    background:transparent;
+    border-bottom:1px solid orange;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    font-size:20px;
+}
+.inp:focus{
+    outline:none;
+}
+.inp::placeholder{
+    color:orange;
+    font-size:20px;
+}
+.buttondiv{
+    font-size:18px;
+}
+.coverdiv{
+    margin:50px;
+    display:flex;
+    padding-left:200px;
+}
+.butimage{
+    height:100px;
+    width:100px;
+}
+.butimagef{
+    height:100px;
+    width:100px;
+    position:absolute;
+    top:880px;
+    left:540px;
+}
+.butimaget{
+    height:100px;
+    width:100px;
+    position:absolute;
+    top:880px;
+    left:860px;
+}
+.button{
+    background-color:rgb(0, 223, 30);
+    outline:none;
+    border:none;
+    border-radius:10px;
+    margin:50px;
+    padding:7px;
+    font-size:20px;
+    font-weight:bold;
+}
+#but{
+    position: absolute;
+    top:870px;
+    left:330px;
+}
+#but:hover{
+    background-color:rgb(255, 0, 174);
+}
+#butt{
+    position: absolute;
+    top:870px;
+    left:600px;
+}
+#butt:hover{
+    background-color:rgb(0, 136, 255);
+}
+#buttt{
+    position: absolute;
+    top:870px;
+    left:930px;
+}
+#buttt:hover{
+    background-color:aqua;
+}
+
+
